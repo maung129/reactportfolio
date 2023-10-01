@@ -1,0 +1,19 @@
+.portfoliolist{
+    font-size: 14px;
+    margin-right: 50px;
+    padding:7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.portfoliolist.active{
+    background: white;
+    color:rgb(82, 11, 11);
+}
+
+@media (max-width: 768px) {
+    .portfoliolist{
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+:root{
+    --main-color: rgb(82, 11, 11);
+    --sub-color: rgb(226, 163, 163);
+}
+
+@mixin mobile{
+    @media (max-width: 768px){
+        
+    }
+}
